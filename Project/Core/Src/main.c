@@ -92,10 +92,8 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   int cnt = 100;
-  HAL_GPIO_TogglePin(LED_RED_GPIO_Port, LED_RED_Pin);
-  HAL_GPIO_TogglePin(LED_YELLOW_GPIO_Port, LED_YELLOW_Pin);
-  HAL_GPIO_TogglePin(LED_GREEN_OP_GPIO_Port, LED_GREEN_OP_Pin);
-  HAL_GPIO_TogglePin(LED_YELLOW_OP_GPIO_Port, LED_YELLOW_OP_Pin);
+  HAL_GPIO_TogglePin(LED_GREEN_GPIO_Port, LED_GREEN_Pin);
+  HAL_GPIO_TogglePin(LED_RED_OP_GPIO_Port, LED_RED_OP_Pin);
   while (1)
   {
 	  switch (cnt) {
